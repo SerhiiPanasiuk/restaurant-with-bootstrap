@@ -1,0 +1,206 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: "Oxygen", sans-serif;
+}
+
+.container-fluid {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url(https://imgs.search.brave.com/YIHalKn5FsI8aq2JjHwNfRaEaFbpWXDnZi4U-l1PMc4/rs:fit:150:150:1/g:ce/aHR0cHM6Ly9yZXN0/YXVyYW50anVtcC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDYvR29sZGVu/LUNoaW5hLVJlc3Rh/dXJhbnQtMy0xNTB4/MTUwLmpwZWc) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    border-radius: 50%;
+}
+
+p>img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-brand h1 {
+    font-family: "Lora", serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+    text-decoration: none;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: underline;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.nav-link {
+    color: #951c49;
+    text-align: center;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #fff;
+}
+
+#nav-link a:hover {
+    background: #e7e7e7;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#nav-link {
+    margin-top: 10px;
+}
+
+#nav-link a span {
+    font-size: 1.8em;
+}
+
+/**.navbar-toggler-icon button {
+    border: 3px solid #61122f;
+}**/
+
+.navbar-toggler {
+    border: 4px solid #61122f;
+}
+
+@media (min-width: 1400px) {
+    .jumbotron {
+        background: url("https://usmile581.github.io/Bistro_Restaurant/images/jumbotron_1200.jpg") no-repeat;
+        background-size: contain;
+        height: 731px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .jumbotron {
+        background: url("https://usmile581.github.io/Bistro_Restaurant/images/jumbotron_1200.jpg") no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img {
+        background: url("https://usmile581.github.io/Bistro_Restaurant/images/restaurant-logo_medium.png") no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+
+    .jumbotron {
+        background: url("https://usmile581.github.io/Bistro_Restaurant/images/jumbotron_992.jpg") no-repeat;
+        height: 558px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron {
+        background: url("https://usmile581.github.io/Bistro_Restaurant/images/jumbotron_768.jpg") no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+@media (min-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+
+    .navbar-brand p {
+        text-transform: uppercase;
+        font-size: 0.6em;
+        margin-top: 12px;
+    }
+
+    .navbar-brand p img {
+        height: 20px;
+    }
+
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+
+    #call-btn {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+}
+
+#menu-tile, 
+#special-tile, 
+#map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+
+#menu-tile:hover,
+#special-tile:hover,
+#map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
