@@ -1,0 +1,106 @@
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background: #f2e9e2;
+}
+
+.image img {
+  width: 300px;
+  height: 450px;
+  border-radius: 28px 0 0 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  /*margin: 25% 35% 25% 35%;*/
+  /*padding-right: 15px;*/
+}
+
+.info-text {
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 0 28px 28px 0;
+  padding: 0 30px;
+  /*text-align: center;*/
+}
+
+.h1 {
+  color: #18212a;
+  font-family: 'Fraunces', serif;
+}
+
+.container {
+  width: 600px;
+  height: 350px;
+  display: flex;
+  margin: 175px 420px 175px 420px;
+}
+
+.info-text span {
+  color: #3d8168;
+  font-size: 2.0em;
+  margin-right: 30px;
+  font-weight: 700;
+}
+
+p,
+h2 {
+  color: #5e5e68;
+  font-family: 'Montserrat',  monospace;
+  
+} 
+p {
+  font-size: 14px;
+}
+h2 {
+  letter-spacing: 5px;
+  font-size: small;
+  margin-top: 35px;
+}
+
+/*Button*/
+.button {
+  background-color: #3d8168;
+  color: white;
+  border-radius: 8px;
+  height: 50px;
+  width: 230px;
+  border: none;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: #1a4031;
+  color: white;
+  /*border: 5px solid;*/
+
+}
+
+i {
+  color: #fffefd;
+  size: 5em;
+}
+
+/*Mobile designs*/
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    width: 340px;
+    height: 666px;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .image {
+    background: url("images\image-product-mobile.jpg") no-repeat;
+    height: 240px;
+    width: 340px;
+  }
+}
